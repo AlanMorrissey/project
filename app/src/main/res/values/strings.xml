@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Secure your home (v1.2.4)</string>
+    <string name="title_activity_user_login">userLogin</string>
+    <string name="ViewSensorData">View Sensor data</string>
+    <string name="ViewTimestamp">View Alarm records</string>
+    <string name="default_value">Default</string>
+    <string name="UpdateData">Update</string>
+    <string name="Findstation">find police stations</string>
+    <string name="title_activity_nearest_station">Map</string>
+</resources>

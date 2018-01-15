@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.user.appproject.MainActivity">
+
+    <EditText
+        android:id="@+id/edtLogin1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName"
+        android:textSize="16dp"
+        android:layout_marginTop="202dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edtLogin2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/edtLogin1"
+        android:layout_alignStart="@+id/edtLogin1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/edtLogin2"
+        android:layout_marginTop="58dp"
+        android:layout_alignEnd="@+id/edtLogin2"
+        android:layout_alignStart="@+id/edtLogin2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Update login details"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/edtLogin1"
+        android:layout_marginTop="61dp"
+        android:layout_alignStart="@+id/edtLogin1"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
